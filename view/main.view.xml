@@ -1,0 +1,35 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:html="http://www.w3.org/1999/xhtml" controllerName="TestCamAndLoc.view.main">
+	<Page title="Camera and Location Test">
+		<content>
+		    <HBox width="100%" id="__hbox0">
+		        <items>
+		            <Button text="Take a Picture" width="200px" id="__button0" press="capturePhoto"/>
+		            <Button text="Upload from Gallery" width="200px" id="__button1" press="getPhoto"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox1">
+		        <items>
+		            <Image width="200px" height="200px" id="myImage"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox2">
+		        <items>
+		            <Label text="Latitude :" width="100%" id="__label2"/>
+		            <Text text="" id="txtLatitude"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox3">
+		        <items>
+		            <Label text="Longitude :" width="100%" id="__label1"/>
+		             <Text text="" id="txtLongitude"/>
+		        </items>
+		    </HBox>
+		    <HBox width="100%" id="__hbox4">
+		        <items>
+		            <Label text="Altitude :" width="100%" id="__label0"/>
+		             <Text text="" id="txtAltitude"/>
+		        </items>
+		    </HBox>
+		</content>
+	</Page>
+</core:View>
